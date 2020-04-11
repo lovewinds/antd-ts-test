@@ -5,6 +5,7 @@ import { Layout } from 'antd';
 import { Typography } from 'antd';
 
 import './App.css';
+import TranslateBox from './items/translate-box';
 
 const { Header, Footer, Content } = Layout;
 const { Title } = Typography;
@@ -30,6 +31,9 @@ function App() {
             >
               <Button type="primary">Learn React</Button>
             </a>
+            <div className="BoxLayout">
+              <TranslateBox /><TranslateBox />
+            </div>
           </header>
         </Content>
         <Footer className="Ant-Footer">
